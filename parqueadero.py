@@ -9,7 +9,7 @@ def esta_registrado(placa):
 
 def registrar_entrada():
     if not hay_espacio():
-        print("PARQUEADERO LLENO")
+        print("EL parqueadero no tiene espacio")
         return
     placa = input("Placa: ").upper()
     if esta_registrado(placa):
