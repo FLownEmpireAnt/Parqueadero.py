@@ -1,3 +1,5 @@
+from datetime import datetime
+
 vehiculos = []
 capacidad_maxima = 10
 tarifas = {'carro':3000, 'moto':2000}
