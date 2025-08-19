@@ -17,7 +17,7 @@ def registrar_entrada():
     if esta_registrado(placa):
         print("Vehículo ya registrado")
         return
-    tipo = input("Tipo (Carro/Moto): ").capitalize()
+    tipo = input("Tipo (Carro/Moto): ").lower()
     hora_entrada = input("Hora entrada (HH:MM): ")
     vehiculos.append({
         "placa": placa,
